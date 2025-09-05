@@ -43,3 +43,25 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Flutter/Dart/Pub related
+**/build/
+.dart_tool/
+.packages
+pubspec.lock
+*.g.dart
+*.freezed.dart
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Firebase sensitive files
+firebase.json
+.firebaserc
+
+# Other
+*.DS_Store
+*.log
